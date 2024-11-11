@@ -1,0 +1,4 @@
+# Variables que deben ser privadas
+*.env
+!*.env.gpg
+!*.env.gpg.asc

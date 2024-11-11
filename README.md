@@ -16,12 +16,5 @@
 </div></h1>
 
 
-# Descripción
-Es un proyecto de servidor Node.js que recibe y guarda datos enviados por diversos dispositivos a través del protocolo UDP y hace que esos datos estén disponibles en tiempo real a través de conexiones TCP/IP. Es apto para sistemas de monitoreo o aplicaciones IoT donde los datos pueden ser almacenados y visualizados de manera fácil y eficiente.
-
-# Características
-- **Servidor UDP para recepción de datos**: Escucha y procesa los paquetes UDP enviados a través de múltiples dispositivos.
-
-- **Archivo de Datos por Dispositivo**: La información se almacena en archivos de texto construidos por ID, lo que facilita su acceso y mantenimiento.
-
-- **Acceso TCP en Tiempo Real**: Un dispositivo externo puede conectarse al servidor a través de TCP para acceder continuamente a salidas informativas de ese dispositivo.
+# check-time-response
+Permite enviar una cantidad especifica de paquetes para que el servidor muestre la cantidad de paquetes que llegaron. La idea es ver cuantos paquetes llegaron y cuantos se perdieron.

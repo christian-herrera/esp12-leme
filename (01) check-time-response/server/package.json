@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "App que se ejecuta en el servidor y cuenta los paquetes UDP recibidos",
+  "main": "scr/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js"
+  },
+  "keywords": [
+    "LEME",
+    "ESP12",
+    "QNAP",
+    "UDP"
+  ],
+  "author": "Christian Yoel Herrera",
+  "license": "ISC"
+}

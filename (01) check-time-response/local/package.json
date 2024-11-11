@@ -1,0 +1,13 @@
+{
+  "name": "local",
+  "version": "1.0.0",
+  "description": "App que se ejecuta en una maquina local y realiza el envio de los paquetes UDP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env index.js",
+    "dev": "nodemon --env-file=.env index.js"
+  },
+  "author": "Christian Yoel Herrera",
+  "license": "ISC"
+}
