@@ -17,4 +17,12 @@
 
 
 # check-time-response
-Permite enviar una cantidad especifica de paquetes para que el servidor muestre la cantidad de paquetes que llegaron. La idea es ver cuantos paquetes llegaron y cuantos se perdieron.
+Permite enviar una cantidad específica de paquetes para que el servidor muestre la cantidad de paquetes que llegaron. La idea es ver cuantos paquetes llegaron y cuantos se perdieron.
+
+
+# unzip-message
+Pruebas para recibir los paquetes en una trama específica y descomponerlos en variables independientes para luego procesarlas.
+
+
+# unzip-and-save-message
+Se agrega la funcionalidad de guardar en un archivo los valores que llegaron, siempre que se cumpla el formato específico de los paquetes
