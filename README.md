@@ -26,3 +26,10 @@ Pruebas para recibir los paquetes en una trama específica y descomponerlos en v
 
 # unzip-and-save-message
 Se agrega la funcionalidad de guardar en un archivo los valores que llegaron, siempre que se cumpla el formato específico de los paquetes
+
+
+# encrypted-message
+Permite cifrar el mensaje del paquete que se envia por UDP para que el server lo descifre, verifique los datos que llegaron, y finalmente el server devuelve el ACK tambien encriptado. El cliente recibe el ACK, lo descifra y lo muestra en consola.
+
+## To-Do
+- Agregar el try-catch para tratar el fallo del descifrado del mensaje.

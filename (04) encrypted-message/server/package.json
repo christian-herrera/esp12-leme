@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "App que sera quien recibe los mensajes por UDP y los desarma para guardar sus valores individuales",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "nodemon --env-file=.env src/index.js"
+  },
+  "author": "Christian Yoel Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1"
+  }
+}
