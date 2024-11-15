@@ -29,7 +29,21 @@ Se agrega la funcionalidad de guardar en un archivo los valores que llegaron, si
 
 
 # encrypted-message
-Permite cifrar el mensaje del paquete que se envia por UDP para que el server lo descifre, verifique los datos que llegaron, y finalmente el server devuelve el ACK tambien encriptado. El cliente recibe el ACK, lo descifra y lo muestra en consola.
+Permite cifrar el mensaje del paquete que se envía por UDP para que el server lo descifre, verifique los datos que llegaron, y finalmente el server devuelve el ACK también encriptado. El cliente recibe el ACK, lo descifra y lo muestra en consola.
 
 ## To-Do
 - Agregar el try-catch para tratar el fallo del descifrado del mensaje.
+
+
+# only-ids-enabled
+Permite probar la funcionalidad de guardado de datos para aquellos ID que se encuentran en un archivo json cuya estructura es de la forma:
+```json
+[
+    {
+        "id": 111111,
+        "descripcion": "Modulo ESP 1",
+        "enabled": true
+    }    
+]
+```
+Y solo aquellos paquetes que coincidan con el ID y tengan la propiedad `enabled` en `true` serán almacenados.

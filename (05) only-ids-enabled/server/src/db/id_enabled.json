@@ -1,0 +1,18 @@
+[
+    {
+        "id": 111111,
+        "descripcion": "Modulo ESP 1",
+        "enabled": true
+    },
+    {
+        "id": 222222,
+        "descripcion": "Modulo ESP 2",
+        "enabled": true
+    },
+    {
+        "id": 333333,
+        "descripcion": "Modulo ESP 3",
+        "enabled": false
+    }
+    
+]
